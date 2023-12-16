@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blurbackground"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".assessmentDetailsActivity">
+
+    <ProgressBar
+        android:id="@+id/simpleProgressBar"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/assessmentDetails"
+        android:layout_marginTop="10dp"
+        android:visibility="gone">
+
+
+        <TextView
+            style="@style/Headings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+
+            android:text="Depression Assessment Quiz" />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_margin="5dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            style="@style/TextColor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Quiz taken on:"
+            android:textSize="24dp" />
+
+        <TextView
+            android:id="@+id/quizTaken"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="..."
+           style="@style/TextColor"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/primaryDarkColor"
+        android:layout_margin="5dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            style="@style/TextColor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Depression level:"
+            android:textSize="24dp" />
+
+        <TextView
+            android:id="@+id/deplevel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            style="@style/TextColor"
+            android:textColor="#000"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/primaryDarkColor"
+        android:layout_margin="5dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            style="@style/TextColor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:shadowColor="@android:color/black"
+            android:shadowDx="4"
+            android:shadowDy="4"
+            android:shadowRadius="3"
+            android:text="Depression Severity:"
+            android:textSize="24dp" />
+
+        <TextView
+            android:id="@+id/depSeverity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="..."
+            style="@style/TextColor"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/primaryDarkColor"
+        android:layout_margin="5dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            style="@style/TextColor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Next Evaluation:"
+            android:textSize="24dp" />
+
+        <TextView
+            android:id="@+id/nextEvaluation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="..."
+            style="@style/TextColor"
+            android:textSize="20dp" />
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"
+        android:background="@color/primaryDarkColor"
+        android:layout_margin="5dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            style="@style/TextColor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Remaining Days:"
+            android:textSize="24dp" />
+
+        <TextView
+            android:id="@+id/remainingDays"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="..."
+            style="@style/TextColor"
+            android:textSize="20dp" />
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"
+        android:layout_margin="5dp"
+        android:background="@color/primaryDarkColor"/>
+
+    <Button
+        android:id="@+id/takeQuiz"
+        style="@style/TextColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_margin="20dp"
+        android:visibility="gone"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/button_default"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="Take an Assessment Quiz"
+        android:textSize="20dp" />
+    </LinearLayout>
+</LinearLayout>

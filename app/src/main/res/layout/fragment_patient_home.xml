@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/blurbackground"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:context=".patientHomeFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        >
+
+        <TextView
+            style="@style/Headings"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Greetings  " />
+
+        <TextView
+            style="@style/Headings"
+            android:id="@+id/patientName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="30dp"
+            android:text="..." />
+
+    </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/beforeQuizText"
+            style="@style/TextColor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="@string/Depression_Symptoms"
+            android:textSize="22dp"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/takeQuiz"
+            style="@style/TextColor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_default"
+            android:text="Take Depression Assessment Quiz"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:visibility="gone" />
+        <!--    <LinearLayout-->
+        <!--        android:id="@+id/level"-->
+        <!--        android:padding="10dp"-->
+        <!--        android:layout_width="wrap_content"-->
+        <!--        android:layout_height="wrap_content"-->
+        <!--        android:gravity="center"-->
+        <!--        android:orientation="horizontal"-->
+        <!--        android:visibility="invisible">-->
+        <!--        <TextView-->
+        <!--            android:layout_weight="1"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:textStyle="bold"-->
+        <!--            android:text="Depression Level is:"-->
+        <!--            android:layout_gravity="left"-->
+        <!--            android:textSize="25dp"/>-->
+        <!--        <TextView-->
+        <!--            android:id="@+id/depressionLevel"-->
+        <!--            android:layout_weight="1"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:textStyle="bold"-->
+        <!--            android:text="level here"-->
+        <!--            android:layout_gravity="left"-->
+        <!--            android:textSize="25dp"/>-->
+        <!--</LinearLayout>-->
+        <!--    <LinearLayout-->
+        <!--        android:id="@+id/evaluation"-->
+        <!--        android:layout_width="wrap_content"-->
+        <!--        android:layout_height="wrap_content"-->
+        <!--        android:gravity="center"-->
+        <!--        android:orientation="horizontal"-->
+        <!--        android:padding="15dp"-->
+        <!--        android:visibility="invisible">-->
+        <!--        <TextView-->
+        <!--            android:layout_weight="1"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:textStyle="bold"-->
+        <!--            android:text="Next Evaluation will be:"-->
+        <!--            android:layout_gravity="left"-->
+        <!--            android:textSize="25dp"/>-->
+
+        <!--        <TextView-->
+        <!--            android:id="@+id/nextEvaluation"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_gravity="left"-->
+        <!--            android:layout_weight="1"-->
+        <!--            android:text="Date here"-->
+        <!--            android:textSize="25dp"-->
+        <!--            android:textStyle="bold" />-->
+        <!--    </LinearLayout>-->
+
+        <RelativeLayout
+            android:id="@+id/afterQuiz"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone">
+
+
+            <ScrollView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+<!--                android:layout_marginTop="20dp">-->
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:clipToPadding="false"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                            android:id="@+id/patientTasks"
+                            android:layout_width="160dp"
+                            android:layout_height="190dp"
+                            android:layout_margin="10dp"
+                            android:clickable="true"
+                            android:foreground="?android:attr/selectableItemBackground"
+                            android:padding="0dp"
+                            card_view:cardBackgroundColor="@android:color/transparent"
+                            card_view:cardCornerRadius="20dp"
+                            card_view:cardElevation="0dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="188dp"
+                                android:background="#88191819"
+                                android:gravity="center"
+                                android:orientation="vertical">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="132dp"
+                                    android:gravity="center">
+
+                                    <ImageView
+                                        android:layout_width="64dp"
+                                        android:layout_height="64dp"
+                                        android:padding="10dp"
+                                        android:src="@drawable/tasks" />
+                                </LinearLayout>
+
+                                <TextView
+                                    style="@style/TextColor"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="My Tasks"
+                                    android:textSize="18dp" />
+
+                                <View
+                                    android:layout_width="match_parent"
+                                    android:layout_height="1dp"
+                                    android:layout_margin="2dp" />
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                            android:id="@+id/exercises"
+                            android:layout_width="160dp"
+                            android:layout_height="190dp"
+                            android:layout_margin="10dp"
+                            android:clickable="true"
+                            android:foreground="?android:attr/selectableItemBackground"
+                            android:padding="0dp"
+                            card_view:cardBackgroundColor="@android:color/transparent"
+                            card_view:cardCornerRadius="20dp"
+                            card_view:cardElevation="0dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="#88191819"
+                                android:gravity="center"
+                                android:orientation="vertical">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="130dp"
+                                    android:gravity="center">
+
+                                    <ImageView
+                                        android:layout_width="64dp"
+                                        android:layout_height="64dp"
+                                        android:src="@drawable/exercise_icon" />
+                                </LinearLayout>
+
+                                <TextView
+                                    style="@style/TextColor"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Exercise\nSchedule"
+                                    android:textAlignment="center"
+                                    android:textSize="18dp" />
+
+                                <View
+                                    android:layout_width="match_parent"
+                                    android:layout_height="1dp"
+
+                                    android:layout_margin="2dp" />
+
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:clipToPadding="false"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                            android:id="@+id/depQuiz"
+                            android:layout_width="160dp"
+                            android:layout_height="190dp"
+                            android:layout_margin="10dp"
+                            android:clickable="true"
+                            android:foreground="?android:attr/selectableItemBackground"
+                            android:padding="0dp"
+                            card_view:cardBackgroundColor="@android:color/transparent"
+                            card_view:cardCornerRadius="20dp"
+                            card_view:cardElevation="0dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="#88191819"
+                                android:gravity="center"
+                                android:orientation="vertical">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="130dp"
+                                    android:gravity="center">
+
+                                    <ImageView
+                                        android:layout_width="64dp"
+                                        android:layout_height="64dp"
+                                        android:src="@drawable/dep_quiz_icon" />
+                                </LinearLayout>
+
+                                <TextView
+                                    style="@style/TextColor"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Depression \nQuiz"
+                                    android:textAlignment="center"
+                                    android:textSize="18dp" />
+
+                                <View
+                                    android:layout_width="match_parent"
+                                    android:layout_height="1dp"
+
+                                    android:layout_margin="2dp" />
+
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                            android:id="@+id/therapySessions"
+                            android:layout_width="160dp"
+                            android:layout_height="190dp"
+                            android:layout_margin="10dp"
+                            android:clickable="true"
+                            android:foreground="?android:attr/selectableItemBackground"
+                            android:padding="0dp"
+                            card_view:cardBackgroundColor="@android:color/transparent"
+                            card_view:cardCornerRadius="20dp"
+                            card_view:cardElevation="0dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="#88191819"
+                                android:gravity="center"
+                                android:orientation="vertical">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="130dp"
+                                    android:gravity="center">
+
+                                    <ImageView
+                                        android:layout_width="64dp"
+                                        android:layout_height="64dp"
+                                        android:src="@drawable/therpay_icon" />
+                                </LinearLayout>
+
+                                <TextView
+                                    style="@style/TextColor"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Therapy\n Sessions"
+                                    android:textAlignment="center"
+                                    android:textSize="18dp" />
+
+                                <View
+                                    android:layout_width="match_parent"
+                                    android:layout_height="1dp"
+                                    android:layout_margin="2dp" />
+
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </ScrollView>
+
+        </RelativeLayout>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

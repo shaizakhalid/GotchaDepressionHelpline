@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blurbackground"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".adminTasksFragment">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/feedbackComplain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:padding="0dp"
+        card_view:cardBackgroundColor="@android:color/transparent"
+        card_view:cardCornerRadius="60dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#88191819"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="150dp"
+                android:layout_height="130dp"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:src="@drawable/feedback_complain_icon"
+
+                    />
+            </LinearLayout>
+
+            <TextView
+                style="@style/Headings"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Feedback and \n Complaints"
+                android:textSize="24dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="26dp"
+                android:layout_margin="2dp" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/sessionReports"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:padding="0dp"
+        card_view:cardBackgroundColor="@android:color/transparent"
+        card_view:cardCornerRadius="60dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#88191819"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="150dp"
+                android:layout_height="130dp"
+                android:gravity="center"
+
+                >
+
+                <ImageView
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:padding="10dp"
+                    android:src="@drawable/session_report_icon" />
+            </LinearLayout>
+
+            <TextView
+                style="@style/Headings"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Session\n Reports"
+                android:textSize="24dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_margin="2dp" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,126 @@
+<resources>
+    <string name="app_name">Gotcha-DepressionHelpline</string>
+    <string name="title_activity_dashboard">dashboard</string>
+    <string name="title_home">Home</string>
+    <string name="title_tasks">Tasks</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="Disclaimer">\n <big><b>Last updated: December 12, 2019</b></big>
+\n\nThe information contained on Gotcha-Depression Helpline mobile app (the \"Service\") is for general information purposes only.
+    \n\n It assumes no responsibility for errors or omissions in the contents on the Service.
+\n\nIn no event shall be liable for any special, direct, indirect, consequential, or incidental damages or any damages whatsoever, whether in an action of contract, negligence or other arising out of or in connection with the use of the Service or the contents of the Service. reserves the right to make additions, deletions, or modification to the contents on the Service at any time without prior notice.
+\n\nIt does not warrant that the website is free of viruses or other harmful components.\nExternal links disclaimer
+\n\nGotcha\'-Depression Helpline mobile app may contain links to external websites that are not provided or maintained by or in any way affiliated with .
+\n\nPlease note that the does not guarantee the accuracy, relevance, timeliness, or completeness of any information on these external websites.
+\n\n<big><b>Important</b></big>
+\n\nPlease note that this application can\'t be treated as a substitute for actual therapy. In case of emergency please contact your local hospital.
+
+</string>
+    <string name="Privacy_Policy">
+\nWe have built the Gotcha\' -Depression Helpline app as a Free app. This SERVICE is provided by at no cost and is intended for use as is.
+\nThis page is used to inform visitors regarding our policies with the collection, use, and disclosure of Personal Information if anyone decided to use our Service.
+\nIf you choose to use our Service, then you agree to the collection and use of information in relation to this policy. The Personal Information that we collect is used for providing and improving the Service. We will not use or share your information with anyone except as described in this Privacy Policy.
+\nThe terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, which is accessible at Gotcha- Depression Helpline unless otherwise defined in this Privacy Policy.
+\n\n<big><b>Information Collection and Use</b></big>
+\nFor a better experience, while using our Service, we may require you to provide us with certain personally identifiable information. The information that we request will be retained by us and used as described in this privacy policy.
+\nThe app does use third party services that may collect information used to identify you.
+\nLink to privacy policy of third party service providers used by the app
+\n•	Google Play Services
+        \n•	Firebase Analytics
+        \n\n<big><b> Log Data</b></big>
+\nWe want to inform you that whenever you use our Service, in a case of an error in the app we collect data and information (through third party products) on your phone called Log Data. This Log Data may include information such as your device Internet Protocol (\"IP\") address, device name, operating system version, the configuration of the app when utilizing our Service, the time and date of your use of the Service, and other statistics.
+\n\n<big><b>Cookies </b></big>
+\nCookies are files with a small amount of data that are commonly used as anonymous unique identifiers. These are sent to your browser from the websites that you visit and are stored on your device\'s internal memory.
+\nThis Service does not use these \"cookies\" explicitly. However, the app may use third party code and libraries that use \"cookies\" to collect information and improve their services. You have the option to either accept or refuse these cookies and know when a cookie is being sent to your device. If you choose to refuse our cookies, you may not be able to use some portions of this Service.
+\n\n<big><b>Service Providers </b></big>
+\nWe may employ third-party companies and individuals due to the following reasons:
+\n•	To facilitate our Service;
+\n•	To provide the Service on our behalf;
+\n•	To perform Service-related services; or
+\n•	To assist us in analyzing how our Service is used.
+\n
+\nWe want to inform users of this Service that these third parties have access to your Personal Information. The reason is to perform the tasks assigned to them on our behalf. However, they are obligated not to disclose or use the information for any other purpose.
+\n\n<big><b>Security</b></big>
+\nWe value your trust in providing us your Personal Information, thus we are striving to use commercially acceptable means of protecting it. But remember that no method of transmission over the internet, or method of electronic storage is 100% secure and reliable, and we cannot guarantee its absolute security.
+\n\n<big><b>Links to Other Sites</b></big>
+\nThis Service may contain links to other sites. If you click on a third-party link, you will be directed to that site. Note that these external sites are not operated by us. Therefore, we strongly advise you to review the Privacy Policy of these websites. We have no control over and assume no responsibility for the content, privacy policies, or practices of any third-party sites or services.
+\n\n<big><b>Children’s Privacy</b></big>
+\nThese Services do not address anyone under the age of 13. We do not knowingly collect personally identifiable information from children under 13. In the case we discover that a child under 13 has provided us with personal information, we immediately delete this from our servers. If you are a parent or guardian and you are aware that your child has provided us with personal information, please contact us so that we will be able to do necessary actions.
+\n\n<big><b>Changes to This Privacy Policy</b></big>
+\nWe may update our Privacy Policy from time to time. Thus, you are advised to review this page periodically for any changes. We will notify you of any changes by posting the new Privacy Policy on this page. These changes are effective immediately after they are posted on this page.
+\n\n <big><b>Contact Us</b></big>
+\nIf you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us at <i> Ibtsamrathor@yahoo.com </i>.
+
+</string>
+
+
+    <string name="Terms_and_Condition">
+
+\n<b>Last updated: December 12, 2019</b>
+\nPlease read these Terms and Conditions (\"Terms\", \"Terms and Conditions\") carefully before using the mobile application (the \"Service\") operated by (\"us"\, \"we\", or \"our\").
+\n\nYour access to and use of the Service is conditioned on your acceptance of and compliance with these Terms. These Terms apply to all visitors, users and others who access or use the Service.
+\nBy accessing or using the Service you agree to be bound by these Terms. If you disagree with any part of the terms, then you may not access the Service. The Terms and Conditions agreement has been created with the help of PrivacyPolicies.com Terms and Conditions Generator.
+\n<big><b>Accounts</b></big>
+\nWhen you create an account with us, you must provide us information that is accurate, complete, and current at all times. Failure to do so constitutes a breach of the Terms, which may result in immediate termination of your account on our Service.
+\nYou are responsible for safeguarding the password that you use to access the Service and for any activities or actions under your password, whether your password is with our Service or a third-party service.
+\nYou agree not to disclose your password to any third party. You must notify us immediately upon becoming aware of any breach of security or unauthorized use of your account.
+\n\n<big><b>Links to Other Web Sites</b></big>
+\nOur Service may contain links to third-party web sites or services that are not owned or controlled by .has no control over, and assumes no responsibility for, the content, privacy policies, or practices of any third party web sites or services. You further acknowledge and agree that shall not be responsible or liable, directly or indirectly, for any damage or loss caused or alleged to be caused by or in connection with use of or reliance on any such content, goods or services available on or through any such web sites or services.
+\nWe strongly advise you to read the terms and conditions and privacy policies of any third-party web sites or services that you visit.
+\n\n<big><b>Termination</b></big>
+\nWe may terminate or suspend access to our Service immediately, without prior notice or liability, for any reason whatsoever, including without limitation if you breach the Terms.
+\nAll provisions of the Terms which by their nature should survive termination shall survive termination, including, without limitation, ownership provisions, warranty disclaimers, indemnity and limitations of liability.
+\nWe may terminate or suspend your account immediately, without prior notice or liability, for any reason whatsoever, including without limitation if you breach the Terms.
+\nUpon termination, your right to use the Service will immediately cease. If you wish to terminate your account, you may simply discontinue using the Service.
+\nAll provisions of the Terms which by their nature should survive termination shall survive termination, including, without limitation, ownership provisions, warranty disclaimers, indemnity and limitations of liability.
+\n\n<big><b>Governing Law</b></big>
+\nThese Terms shall be governed and construed in accordance with the laws of Pakistan, without regard to its conflict of law provisions.
+\nOur failure to enforce any right or provision of these Terms will not be considered a waiver of those rights. If any provision of these Terms is held to be invalid or unenforceable by a court, the remaining provisions of these Terms will remain in effect. These Terms constitute the entire agreement between us regarding our Service and supersede and replace any prior agreements we might have between us regarding the Service.
+    \n\n<big><b>Changes</b></big>
+\nWe reserve the right, at our sole discretion, to modify or replace these Terms at any time. If a revision is material, we will try to provide at least 15 days’ notice prior to any new terms taking effect. What constitutes a material change will be determined at our sole discretion.
+\nBy continuing to access or use our Service after those revisions become effective, you agree to be bound by the revised terms. If you do not agree to the new terms, please stop using the Service.
+ \n\n<big><b>Contact Us</b></big>
+\nIf you have any questions about these Terms, please contact us at ibtsamrathor@yahoo.com.
+</string>
+
+    <string name="TermsAndCondition_Title">
+        Terms and Condition (\"Terms\")
+    </string>
+
+
+    <string name="Therapist_authentication_Message">
+        Registration Completed! \n Your request will be reviewed by our team.\n We will inform you as soon as your account is verified.
+    </string>
+    <string name="Account_Blocked_Message">
+       Your account has been blocked due to your behaviour/ actions. \n If you think our team made a mistake, please contact \n supportteam_gotcha@gmail.com.
+    </string>
+    <string name="Quiz_Instructions">
+        <big><b>About the test</b></big>
+\nThis depression test is called the PHQ-9. The PHQ-9 is one of the most commonly used depression screening tools in the world. It is used by clinicians and researchers for individual assessment and large-scale reports, including census reports conducted by the Center for Disease Control and Prevention (CDC).
+\n\n<big><b>The science behind the test</b></big>
+\nThis depression test is based on nine symptoms described in the DSM-IV, the standard diagnostic manual for mental health disorders developed by the American Psychiatric Association (APA). The PHQ-9 has been found to be a valid and reliable measure of depression. The PHQ-9 was authored by Pfizer Inc.
+\n\n<big><b>Before you take the test</b></big>
+\nDon\'t be discouraged by a low score. You can change it Remember, we are still alive and the great thing about being alive is we can take responsibility and change our lives.
+    </string>
+
+    <string name="Note_Patient">
+        <big><b>Note:</b></big> \nIn order to register as a Therapist, upload picture of your Student ID Card by clicking on the button below:
+    </string>
+
+    <string name="Depression_Symptoms">
+        \n<i>If you notice all/any of the following symptoms, click on the button in the end to take depression assessment quiz and get the help you deserve.</i>
+        \n\n<big><b>Symptoms:</b></big>
+\nFeelings of helplessness and hopelessness.
+\nLoss of interest in daily activities.
+\nAppetite or weight changes.
+\nSleep changes. Either insomnia, especially waking in the early hours of the morning, or oversleeping.
+\nAnger or irritability.
+\nLoss of energy.
+\nSelf-loathing.
+\nStrong feelings of worthlessness or guilt.
+\nReckless behavior.
+\nConcentration problems.
+\nUnexplained aches and pains.
+
+    </string>
+</resources>

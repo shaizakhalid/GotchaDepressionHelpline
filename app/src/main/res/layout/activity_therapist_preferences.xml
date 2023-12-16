@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blurbackground"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingTop="50dp"
+    tools:context=".therapistPreferences">
+
+    <TextView
+        style="@style/Headings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Preferences"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/first"
+        style="@style/TextColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:paddingTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:text=" Add Your Availability Duration"
+        android:textSize="24dp" />
+
+<!--    <TextView-->
+<!--        android:id="@+id/next"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_margin="10dp"-->
+<!--        android:layout_gravity="left"-->
+<!--        android:text=" Change Availability Duration"-->
+<!--        android:textColor="#000"-->
+<!--        android:textSize="24dp"-->
+<!--        android:visibility="gone" />-->
+
+    <Button
+        android:id="@+id/changepref"
+        style="@style/TextColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:background="@drawable/button_default"
+        android:text="Change Preference"
+        android:layout_margin="15dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:visibility="gone"/>
+
+    <LinearLayout
+        android:id="@+id/addTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="20dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/startTime"
+                style="@style/TextColor"
+                android:layout_width="wrap_content"
+                android:layout_height="53dp"
+                android:ems="8"
+                android:hint="Start Time"
+                android:padding="10dp"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/select"
+                style="@style/TextColor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@color/primaryDarkColor"
+                android:padding="10dp"
+                android:text="Select Time" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center">
+
+
+            <TextView
+                android:id="@+id/endTime"
+                style="@style/TextColor"
+                android:layout_width="wrap_content"
+                android:layout_height="55dp"
+                android:ems="8"
+                android:hint="End Time"
+                android:padding="10dp"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/endSelect"
+                style="@style/TextColor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@color/primaryDarkColor"
+                android:padding="10dp"
+                android:text="Select Time" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/addPreferences"
+        style="@style/TextColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/button_default"
+        android:onClick="addPreferences_Clicked"
+        android:text="Submit"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    </LinearLayout>
+</LinearLayout>

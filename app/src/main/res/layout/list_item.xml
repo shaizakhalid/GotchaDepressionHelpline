@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/delbtn"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView_userimg"
+        android:layout_width="110dp"
+        android:layout_height="133dp"
+        android:layout_marginRight="10dp" />
+
+    <TextView
+        android:id="@+id/textView_name"
+        style="@style/TextColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@id/imageView_userimg"
+        android:text="Exercise Name: "
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView_Phone"
+        style="@style/TextColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView_name"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_toRightOf="@id/imageView_userimg"
+        android:text="Description"
+        android:textSize="15dp" />
+</RelativeLayout>

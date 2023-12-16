@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.gotcha_depressionhelpline">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+
+    <uses-feature
+        android:name="android.hardware.microphone"
+        android:required="false" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/gotcha"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <meta-data
+            android:name="com.onesignal.NotificationOpened.DEFAULT"
+            android:value="DISABLE" />
+
+        <activity android:name=".viewReportsActivity" />
+        <activity android:name=".blockActivity" />
+        <activity android:name=".updatePasswordActivity" />
+        <activity android:name=".TermsAndCondition" />
+        <activity android:name=".sessionDetailsActivity" />
+        <activity android:name=".assessmentDetailsActivity" />
+        <activity android:name=".reportWrittingActivity" />
+        <activity android:name=".therapySessionActivity" />
+        <activity android:name=".therapistScheduleActivity" />
+        <activity android:name=".BookingForClinicalTreatment" />
+        <activity android:name=".CallScreenActivity" />
+        <activity android:name=".IncomingCallScreenActivity"
+            android:noHistory="true"/>
+        <activity android:name=".therapistPreferences" />
+        <activity android:name=".actionsAgainstComplainsActivity" />
+        <activity android:name=".detailedReviewOnFeedbackComplains" />
+        <activity android:name=".viewfeedbackcomplainactivity" />
+        <activity android:name=".detailedRecordActivity" />
+        <activity android:name=".authenticationActivity" />
+        <activity android:name=".pendingTherapistRequestActivity" />
+        <activity android:name=".therapistRequestActivity" />
+        <activity android:name=".showRecordActivity" />
+        <activity android:name=".therapistDashboardActivity" />
+        <activity android:name=".assessmentResultActivity" />
+        <activity android:name=".PrivacyPolicyActivity" />
+        <activity android:name=".disclaimerActivity" />
+        <activity android:name=".feedbackActivity" />
+        <activity android:name=".aboutMeActivity" />
+        <activity android:name=".QuizInstructionsActivity" />
+        <activity android:name=".depressionAssessmentActivity" />
+        <activity android:name=".AdminDashboard" />
+        <activity android:name=".therapistRegisterActivity" />
+        <activity android:name=".frontPage" />
+        <activity android:name=".ExerciseMainPage" />
+        <activity android:name=".exerciseActivity" />
+        <activity
+            android:name=".patientDashboardActivity"
+            android:label="@string/title_activity_dashboard" />
+        <activity android:name=".patientRegisterActivity" />
+        <activity android:name=".loginActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <service
+            android:name=".SinchService" />
+<!--        <receiver-->
+<!--            android:name="com.google.android.gms.gcm.GcmReceiver" android:exported="true"-->
+<!--            android:permission="com.google.android.c2dm.permission.SEND" >-->
+<!--            <intent-filter>-->
+<!--                <action android:name="com.google.android.c2dm.intent.RECEIVE" />-->
+<!--                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />-->
+<!--                <category android:name="com.something.app" />-->
+<!--            </intent-filter>-->
+<!--        </receiver>-->
+<!--        <service-->
+<!--            android:name=".CallMessageReciever" android:exported="false" >-->
+<!--            <intent-filter>-->
+<!--                <action android:name="com.google.android.c2dm.intent.RECEIVE" />-->
+<!--            </intent-filter>-->
+<!--        </service>-->
+<!--        <service-->
+<!--            android:name="com.something.app.MyIDListenerService" android:exported="false">-->
+<!--        <intent-filter>-->
+<!--            <action android:name="com.google.android.gms.iid.InstanceID"/>-->
+<!--        </intent-filter>-->
+<!--    </service>-->
+    </application>
+
+</manifest>

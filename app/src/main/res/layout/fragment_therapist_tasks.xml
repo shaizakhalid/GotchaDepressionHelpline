@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/blurbackground"
+    tools:context=".therapistTasksFragment">
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/schedule"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:padding="0dp"
+        card_view:cardBackgroundColor="@android:color/transparent"
+        card_view:cardCornerRadius="60dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#88191819"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="150dp"
+                android:layout_height="130dp"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:src="@drawable/schedule_icon" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Booking\nSchedule"
+                style="@style/Headings"
+                android:textSize="24dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+
+                android:layout_margin="2dp" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/sessionReports"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:padding="0dp"
+        card_view:cardBackgroundColor="@android:color/transparent"
+        card_view:cardCornerRadius="60dp">
+
+        <LinearLayout
+            android:background="#88191819"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="150dp"
+                android:layout_height="130dp"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:src="@drawable/session_report_icon" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Session\nReports"
+                style="@style/Headings"
+                android:textSize="24dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+
+                android:layout_margin="2dp" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

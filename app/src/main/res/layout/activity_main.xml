@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/frontpagebackground"
+    tools:context=".MainActivity"
+
+    >
+
+<!--    <ImageView-->
+<!--        android:id="@+id/splashImageView"-->
+<!--        android:layout_width="300dp"-->
+<!--        android:layout_height="150dp"-->
+<!--        android:layout_alignLeft="@id/splashImageView"-->
+<!--        android:layout_marginTop="300dp"-->
+<!--        android:src="@drawable/logo" />-->
+
+
+    <TextView
+        android:id="@+id/appWelcomeText"
+        style="@style/TextColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginBottom="45dp"
+        android:fontFamily="sans-serif-condensed"
+        android:shadowColor="@android:color/black"
+        android:shadowDx="5"
+        android:shadowDy="5"
+        android:shadowRadius="6"
+        android:text="Gotcha'-\nDepression \nHelpline"
+        android:textSize="50dp"
+        android:textStyle="bold" />
+
+    <View
+        android:id="@+id/whiteblock"
+        android:layout_width="20dp"
+        android:layout_height="180dp"
+        android:layout_alignBottom="@+id/appWelcomeText"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="0dp"
+        android:background="@drawable/rec_welcome"
+        />
+
+</RelativeLayout>

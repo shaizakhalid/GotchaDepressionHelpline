@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blurbackground"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".disclaimerActivity">
+
+    <TextView
+        style="@style/Headings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Disclaimer"></TextView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            style="@style/TextColor"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/Disclaimer"
+            android:textSize="20dp"></TextView>
+    </ScrollView>
+
+</LinearLayout>

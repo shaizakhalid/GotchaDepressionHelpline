@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blurimage"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".frontPage">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:src="@drawable/logo" />
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="70dp"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/linkTherapistRegister"
+                    android:layout_width="match_parent"
+                    style="@style/TextColor"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/button_default"
+                    android:onClick="linkTherapistRegister_Clicked"
+                    android:padding="15dp"
+                    android:text="Register as Therapist"
+                    android:textColor="@color/primaryTextColor"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/linkPatientRegister"
+                    style="@style/TextColor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/button_default"
+                    android:onClick="linkPatientRegister_Clicked"
+                    android:padding="15dp"
+                    android:text="Register as Patient"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <TextView
+                android:id="@+id/linkLogin"
+                style="@style/TextColor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="20dp"
+                android:onClick="linkLogin_clicked"
+                android:text="Already have a account? Login!"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

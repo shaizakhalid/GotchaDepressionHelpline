@@ -1,0 +1,205 @@
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/blurbackground"
+    android:padding="16dp">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/linearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="left"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        tools:context=".therapistRegisterActivity">
+
+        <TextView
+            style="@style/TextColor"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:layout_marginBottom="5dp"
+            android:text="Please enter the required detials:"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/editTextName"
+            style="@style/TextColor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/edittextdesign"
+            android:ems="12"
+            android:hint="Full Name"
+            android:inputType="textPersonName"
+            android:textSize="23dp" />
+
+        <RadioGroup
+
+            android:id="@+id/radioGroupGender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/male"
+                style="@style/TextColor"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Male"
+                android:textSize="20dp" />
+
+            <RadioButton
+                android:id="@+id/female"
+                style="@style/TextColor"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="50dp"
+                android:text="Female"
+                android:textSize="20dp" />
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/editTextCNIC"
+            style="@style/TextColor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/edittextdesign"
+            android:ems="12"
+            android:hint="CNIC"
+            android:inputType="number"
+            android:textSize="23dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/TextColor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:shadowColor="@android:color/black"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2"
+                android:text="Do you have any previous Experience?"
+                android:textSize="20dp" />
+
+            <RadioGroup
+                android:id="@+id/previousExperience"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/yes"
+                    style="@style/TextColor"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Yes"
+                    android:textSize="20dp" />
+
+                <RadioButton
+                    android:id="@+id/no"
+                    style="@style/TextColor"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="50dp"
+                    android:text="No"
+                    android:textSize="20dp" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <EditText
+
+            android:id="@+id/editTextUsername"
+            style="@style/TextColor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/edittextdesign"
+            android:ems="12"
+            android:hint="UserName"
+            android:textSize="23dp" />
+
+        <EditText
+            android:id="@+id/editTextGmail"
+            style="@style/TextColor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/edittextdesign"
+            android:ems="12"
+            android:hint="Email ID"
+            android:inputType="textEmailAddress"
+            android:textSize="23dp" />
+
+        <EditText
+            android:id="@+id/editTextPassword"
+            style="@style/TextColor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/edittextdesign"
+            android:ems="12"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textSize="23dp" />
+
+        <EditText
+            android:id="@+id/editTextRePassword"
+            style="@style/TextColor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/edittextdesign"
+            android:ems="12"
+            android:hint="Re-Enter Password"
+            android:inputType="textPassword"
+            android:textSize="23dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+        <Button
+            android:id="@+id/buttonRegister"
+            style="@style/TextColor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_default"
+            android:text="Register" />
+
+        <ProgressBar
+            android:id="@+id/simpleProgressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="gone" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/textViewRegister"
+            style="@style/TextColor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_margin="10dp"
+            android:onClick="call_LoginPage"
+            android:padding="10dp"
+            android:text="Already Registered? Login now!"
+            android:textSize="19dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

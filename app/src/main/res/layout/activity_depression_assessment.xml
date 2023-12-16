@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blurbackground"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".depressionAssessmentActivity">
+
+    <ProgressBar
+        android:id="@+id/simpleProgressBar"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/showQuestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone"
+        >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/quesText"
+            style="@style/Headings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="Question"
+             />
+
+        <TextView
+            android:id="@+id/num"
+            style="@style/Headings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/question"
+        style="@style/TextColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="15dp"
+        android:text="Waiting for questions!"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/notAtAll"
+        style="@style/TextColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/quiz_button_back"
+        android:onClick="notAtAll_Clicked"
+        android:text="Not At All" />
+
+    <Button
+        android:id="@+id/severalDays"
+        style="@style/TextColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/quiz_button_back"
+        android:onClick="severalDays_Clicked"
+        android:text="Several Days" />
+
+    <Button
+        android:id="@+id/moreThanHalfTheDays"
+        style="@style/TextColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/quiz_button_back"
+        android:onClick="moreThanHalfTheDays_clicked"
+        android:text="More Than Half The Days" />
+
+    <Button
+        android:id="@+id/nearlyEveryDay"
+        style="@style/TextColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/quiz_button_back"
+        android:onClick="nearlyEveryDay"
+        android:text="Nearly EveryDay" />
+
+    <TextView
+        android:id="@+id/textfinish"
+        style="@style/TextColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Finished!"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/finish"
+        style="@style/TextColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/button_default"
+        android:onClick="nearlyEveryDay"
+        android:text="View Results"
+        android:visibility="invisible" />
+    </LinearLayout>
+
+</LinearLayout>

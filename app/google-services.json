@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "582002469778",
+    "firebase_url": "https://gotcha-depression-helpline.firebaseio.com",
+    "project_id": "gotcha-depression-helpline",
+    "storage_bucket": "gotcha-depression-helpline.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:582002469778:android:68a592bd5a364156246f4b",
+        "android_client_info": {
+          "package_name": "com.example.gotcha_depressionhelpline"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "582002469778-nfh28ealcpcdrjnihm2jg1g39tia1vgn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.gotcha_depressionhelpline",
+            "certificate_hash": "8ac2eed4e89821736f9ab4747b55e521a632f9ec"
+          }
+        },
+        {
+          "client_id": "582002469778-05igt1iahfthk1iqm3prek2v1aa21jbn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYPGdg4GUzaG0anXAQYtQF1rvtWuWVOWE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "582002469778-05igt1iahfthk1iqm3prek2v1aa21jbn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blurbackground"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".therapySessionActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:gravity="center">
+
+        <TextView
+            style="@style/Headings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="Session Details"
+            android:textSize="26dp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_margin="5dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            style="@style/TextColor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Patient's Name:"
+            android:textSize="24dp" />
+
+        <TextView
+            android:id="@+id/patientName"
+            style="@style/TextColor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="..."
+            android:textSize="20dp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/primaryDarkColor"
+        android:layout_margin="5dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            style="@style/TextColor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Gender:"
+            android:textSize="24dp" />
+
+        <TextView
+            android:id="@+id/gender"
+            style="@style/TextColor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="..."
+            android:textSize="20dp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/primaryDarkColor"
+        android:layout_margin="5dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            style="@style/TextColor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Depression Level:"
+            android:textSize="24dp" />
+
+        <TextView
+            android:id="@+id/deplevel"
+            style="@style/TextColor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="..."
+            android:textSize="20dp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/primaryDarkColor"
+        android:layout_margin="5dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/TextColor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Session Date:"
+            android:textSize="24dp" />
+
+        <TextView
+            android:id="@+id/sessionDate"
+            style="@style/TextColor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="..."
+            android:textSize="20dp" />
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"
+        android:background="@color/primaryDarkColor"
+        android:layout_margin="5dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            style="@style/TextColor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Session Time:"
+            android:textSize="24dp" />
+
+        <TextView
+            android:id="@+id/startTime"
+            style="@style/TextColor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="..."
+            android:textSize="20dp" />
+
+        <TextView
+
+            style="@style/TextColor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="-"
+            android:textSize="24dp" />
+
+        <TextView
+            android:id="@+id/endTime"
+            style="@style/TextColor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="..."
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"
+        android:background="@color/primaryDarkColor"
+        android:layout_margin="5dp" />
+
+    <!--        <LinearLayout-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content">-->
+    <!--            <TextView-->
+    <!--                android:layout_margin="10dp"-->
+    <!--                android:layout_width="wrap_content"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:text="Remaining Time:"-->
+    <!--                android:textSize="24dp"-->
+    <!--                android:textStyle="bold"-->
+    <!--                android:textColor="#000"/>-->
+    <!--            <TextView-->
+    <!--                android:id="@+id/remainingTime"-->
+    <!--                android:layout_margin="10dp"-->
+    <!--                android:layout_width="wrap_content"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:text="..."-->
+    <!--                android:textSize="20dp"-->
+    <!--                android:textColor="#000"/>-->
+    <!--        </LinearLayout>-->
+
+    <!--        <View-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="2dp"-->
+    <!--            android:layout_margin="5dp"/>-->
+    <Button
+        android:id="@+id/makeCall"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:layout_gravity="right"
+        android:layout_marginTop="40dp"
+        android:visibility="gone"
+        android:background="@drawable/phone_icon"
+        android:shadowColor="@android:color/black"
+        android:shadowDx="5"
+        android:shadowDy="5"
+        android:shadowRadius="6" />
+</LinearLayout>

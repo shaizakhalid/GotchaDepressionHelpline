@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blurbackground"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".therapistHomeFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        >
+    <TextView
+        style="@style/Headings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="30dp"
+        android:text="Welcome  " />
+    <TextView
+        style="@style/Headings"
+        android:id="@+id/therapistName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="30dp"
+        android:text="..." />
+
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical">
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:clipToPadding="false"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/therapistTasks"
+                        android:layout_width="160dp"
+                        android:layout_height="190dp"
+                        android:layout_margin="10dp"
+                        android:clickable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        android:padding="0dp"
+                        card_view:cardBackgroundColor="@android:color/transparent"
+                        card_view:cardCornerRadius="20dp"
+                        card_view:cardElevation="0dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="188dp"
+                            android:background="#88191819"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="130dp"
+                                android:gravity="center">
+
+                                <ImageView
+                                    android:layout_width="64dp"
+                                    android:layout_height="64dp"
+                                    android:padding="10dp"
+                                    android:src="@drawable/tasks" />
+                            </LinearLayout>
+
+                            <TextView
+                                style="@style/TextColor"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="My Tasks"
+                                android:textSize="18dp" />
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:layout_margin="2dp" />
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/sessionReports"
+                        android:layout_width="160dp"
+                        android:layout_height="190dp"
+                        android:layout_margin="10dp"
+                        android:clickable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        android:padding="0dp"
+                        card_view:cardBackgroundColor="@android:color/transparent"
+                        card_view:cardCornerRadius="20dp"
+                        card_view:cardElevation="0dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#88191819"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="130dp"
+
+                                android:gravity="center">
+
+                                <ImageView
+                                    android:layout_width="64dp"
+                                    android:layout_height="64dp"
+                                    android:src="@drawable/patient_report_icon" />
+                            </LinearLayout>
+
+                            <TextView
+                                style="@style/TextColor"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Patient Reports"
+                                android:textAlignment="center"
+                                android:textSize="18dp" />
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+
+                                android:layout_margin="2dp" />
+
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:clipToPadding="false"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/therapistSchedule"
+                        android:layout_width="160dp"
+                        android:layout_height="190dp"
+                        android:layout_margin="10dp"
+                        android:clickable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        android:padding="0dp"
+                        card_view:cardBackgroundColor="@android:color/transparent"
+                        card_view:cardCornerRadius="20dp"
+                        card_view:cardElevation="0dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#88191819"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="130dp"
+                                android:gravity="center">
+
+                                <ImageView
+                                    android:layout_width="64dp"
+                                    android:layout_height="64dp"
+                                    android:src="@drawable/schedule_icon" />
+                            </LinearLayout>
+
+                            <TextView
+                                style="@style/TextColor"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="My Schedule"
+                                android:textAlignment="center"
+                                android:textSize="18dp" />
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+
+                                android:layout_margin="2dp" />
+
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/therapistPreferences"
+                        android:layout_width="160dp"
+                        android:layout_height="190dp"
+                        android:layout_margin="10dp"
+                        android:clickable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        android:padding="0dp"
+                        card_view:cardBackgroundColor="@android:color/transparent"
+                        card_view:cardCornerRadius="20dp"
+                        card_view:cardElevation="0dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#88191819"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="130dp"
+                                android:gravity="center">
+
+                                <ImageView
+                                    android:layout_width="64dp"
+                                    android:layout_height="64dp"
+                                    android:src="@drawable/preferences_icon" />
+                            </LinearLayout>
+
+                            <TextView
+                                style="@style/TextColor"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Set Preferences"
+                                android:textAlignment="center"
+                                android:textSize="18dp" />
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:layout_margin="2dp" />
+
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+
+</LinearLayout>

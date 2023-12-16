@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primaryColor">#8e24aa</color>
+    <color name="primaryLightColor">#c158dc</color>
+    <color name="primaryDarkColor">#5c007a</color>
+    <color name="primaryTextColor">#ffffff</color>
+    <color name="green">#008000</color>
+
+    <color name="sinch_purple">#ff63029d</color>
+    <color name="off_white">#fffafafa</color>
+    <color name="greyish">#fff2f1f2</color>
+</resources>

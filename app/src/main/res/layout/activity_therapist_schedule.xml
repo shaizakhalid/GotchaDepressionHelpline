@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blurbackground"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".therapistScheduleActivity">
+
+    <TextView
+        android:id="@+id/type"
+        style="@style/Headings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="20dp"
+        android:text="Schedule" />
+
+    <ProgressBar
+        android:id="@+id/progress_circle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
+
+    <ListView
+        android:id="@+id/listview"
+        style="@style/TextColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></ListView>
+
+    <TextView
+        android:id="@+id/noItemTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/TextColor"
+        android:visibility="gone"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="20dp"
+        android:textSize="20dp"
+        android:text="There is no session booked!"/>
+</LinearLayout>
